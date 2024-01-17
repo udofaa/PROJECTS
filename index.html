@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="images/fav.svg" type="x">
+    <link rel="stylesheet" href="cv.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,400;1,600&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,500&family=Roboto:ital,wght@0,300;0,400;1,300;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header" id="desktop-nav">  
+            <a href="#" class="logo">Portfolio</a>
+        
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li> <a href="skills.html">Skills</a></li>
+            <li> <a href="#">Education</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="signup.html" class="signup-btn">Sign Up</a></li>
+        </ul>
+</header> 
+    
+    <div class="details">
+         <div class="left-content"> 
+            <h1>Frontend Web Developer</h1>
+            <p>Hi, &#9995 I'm <span> Ezekiel Udofa</span>, experience full-stack software engineer &#128187; with 
+                passion for creating intuitive websites that are easy to navigate.Capable of identifying
+                with opportunities  &#x1F933; and to improve front-end design and user experience.
+            </p>
+            <a href="#" class="cvbutton">View CV Here</a>
+        </div>
+
+        <div class="right-content">
+            <img class="coverimage" src="halff.jpeg" alt="profilepicture">
+
+        </div>
+    </div>
+<style>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppin' , sans-serif;
+}
+
+body{
+    font-family: 'open Sans', sans-serif;
+    background-color: yellowgreen;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    /*background: url(../images/half.jpg)no-repeat;
+    background-size: cover;  */
+    background-color: white;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    background-color: greenyellow;
+    border-radius: 100px;
+    transform: rotate(-9deg);
+    transform-origin: top left;
+    transition: transform 0.5s linear;
+}
+
+
+.logo:hover{
+    cursor: default;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+ul li a{
+    padding: 0 20px;
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+}
+
+li a::after{
+    content: '';
+    display: block;
+    height: 4px;
+    width: 0;
+    background: #c4c4f7;
+    transition:all .5s;
+}
+
+li a:hover:after{
+    width: 100%;
+}
+
+.signup-btnn{
+    background: #c4c4f7;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 100px;
+    font-weight: bold;
+}
+
+.details{
+    display: flex;
+    height: cal(100vh - 100px);
+    justify-content: center;
+    align-items: center;
+}
+
+.coverimage{
+    border: 9x solid;
+    width: 380px;
+    height: 350px;
+    border-radius: 160px;
+    margin-top: 15px;
+}
+
+.left-content{
+    width: 60%;
+}
+
+.details h1{
+    font-size: 44px;
+    color: #133b4f;
+    text-transform: uppercase;
+}
+
+.details p{
+    font-size: 20px;
+    color: #333;
+    line-height: 27.5px;
+    margin: 30px 0;
+}
+
+
+.cvbutton{
+    padding: 15px 30px;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: rgba(154, 250, 154, 0.333); 
+}
+
+ .cvbutton:hover{
+    box-shadow: 0 0 5px  rgba(50, 248, 50, 0.333) , 
+    0 0 25px  rgba(50, 248, 50, 0.333) , 0 0 59px  rgba(50, 248, 50, 0.333) ,
+    0 0 100px  rgba(50, 248, 50, 0.333) ,
+    0 0 200px rgba(50, 248, 50, 0.333) ;
+    color: #fff;
+    transition:all .5s ease-in-out 0.5s;
+}
+
+</style>
+</body>
+</html>
